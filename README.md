@@ -16,6 +16,8 @@ New API Horizon是基于开源项目[New API](https://github.com/Calcium-Ion/new
 
 除了原版New API的所有功能外,New API Horizon新增以下特性
 
+1. **[OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime/integration)** - 支持OpenAI的Realtime API,可以实时调用OpenAI的模型
+
 
 ## 获取方式
 
