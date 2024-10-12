@@ -25,4 +25,4 @@ Docker镜像：calciumion/new-api-horizon:latest
 ## WIP
 
 1. [ ] 针对渠道的RPM限制
-2. [ ] 支持自定义令牌聊天选项
+2. [x] 支持自定义令牌聊天选项
