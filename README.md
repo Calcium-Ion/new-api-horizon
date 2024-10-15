@@ -21,9 +21,11 @@ Docker镜像：calciumion/new-api-horizon:latest
 除了原版New API的所有功能外,New API Horizon新增以下特性
 
 1. **[OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime/integration)** - 支持OpenAI的Realtime API，支持Azure渠道。
+2. 支持`/v1/messages`接口（兼容OpenAI渠道转换为Claude格式）
 
 ## WIP
 
 1. [ ] 针对渠道的RPM限制
 2. [x] 支持自定义令牌聊天选项
 3. [x] 支持自定义充值选项
+4. [x] 支持/v1/messages接口（兼容OpenAI渠道转换）
