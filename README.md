@@ -29,3 +29,4 @@ Docker镜像：calciumion/new-api-horizon:latest
 2. [x] 支持自定义令牌聊天选项
 3. [x] 支持自定义充值选项
 4. [x] 支持/v1/messages接口（兼容OpenAI渠道转换）
+5. [x] 性能优化（WIP）
