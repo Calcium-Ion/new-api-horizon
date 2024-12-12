@@ -22,6 +22,7 @@ Docker镜像：calciumion/new-api-horizon:latest
 
 1. **[OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime/integration)** - 支持OpenAI的Realtime API，支持Azure渠道。
 2. 支持`/v1/messages`接口（兼容OpenAI渠道转换为Claude格式）
+3. 高性能，对部分场景专门优化，提高系统资源利用率，高并发下延迟显著降低
 
 ## WIP
 
