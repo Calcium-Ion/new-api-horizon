@@ -6,6 +6,16 @@
 
 特性版 - 基于New API开发的增强版本
 
+<p align="center">
+  <a href="https://github.com/Calcium-Ion/new-api/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Calcium-Ion/new-api-horizon?color=brightgreen&include_prereleases" alt="release">
+  </a>
+  <a href="https://hub.docker.com/r/CalciumIon/new-api-horizon/tags">
+    <img src="https://img.shields.io/badge/docker-dockerHub-blue" alt="docker">
+  </a>
+</p>
+</div>
+
 </div>
 
 ## 关于New API Horizon
