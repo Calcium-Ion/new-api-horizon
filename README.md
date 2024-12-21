@@ -33,6 +33,13 @@ Docker镜像：calciumion/new-api-horizon:latest
 1. **[OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime/integration)** - 支持OpenAI的Realtime API，支持Azure渠道。
 2. 支持`/v1/messages`接口（兼容OpenAI渠道转换为Claude格式）
 3. 高性能，对部分场景专门优化，提高系统资源利用率，高并发下延迟显著降低
+4. auto分组
+
+## auto分组使用教程
+将依次从自动分组的第一位开始选择分组，如果该分组请求失败，则顺位到下一个分组请求  
+扣费将使用选择的分组倍率进行扣费  
+![image](https://github.com/user-attachments/assets/182fa14d-e076-4f0a-994a-877db1e5c999)
+
 
 ## WIP
 
@@ -41,3 +48,4 @@ Docker镜像：calciumion/new-api-horizon:latest
 3. [x] 支持自定义充值选项
 4. [x] 支持/v1/messages接口（兼容OpenAI渠道转换）
 5. [x] 性能优化（WIP）
+6. [x] auto分组
