@@ -37,9 +37,14 @@ Docker镜像：calciumion/new-api-horizon:latest
 5. 用户分组专属分组倍率
 
 ## auto分组使用教程
-将依次从自动分组的第一位开始选择分组，如果该分组请求失败，则顺位到下一个分组请求  
+将依次从自动分组的第一位开始选择分组，如果该分组请求失败，则顺位到下一个分组请求，适用于需要一个令牌访问所有模型的用户  
 扣费将使用选择的分组倍率进行扣费  
 ![image](https://github.com/user-attachments/assets/182fa14d-e076-4f0a-994a-877db1e5c999)
+
+## 用户分组专属分组倍率使用教程
+例如用户为vip分组，在其选择分组为default的令牌时，将按0.8进行分组倍率计算  
+![image](https://github.com/user-attachments/assets/7c143b40-7ba2-4e62-82eb-08b77e70d02a)
+
 
 
 ## WIP
