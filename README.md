@@ -34,6 +34,7 @@ Docker镜像：calciumion/new-api-horizon:latest
 2. 支持`/v1/messages`接口（兼容OpenAI渠道转换为Claude格式）
 3. 高性能，对部分场景专门优化，提高系统资源利用率，高并发下延迟显著降低
 4. auto分组
+5. 用户分组专属分组倍率
 
 ## auto分组使用教程
 将依次从自动分组的第一位开始选择分组，如果该分组请求失败，则顺位到下一个分组请求  
