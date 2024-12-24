@@ -35,6 +35,13 @@ Docker镜像：calciumion/new-api-horizon:latest
 3. 高性能，对部分场景专门优化，提高系统资源利用率，高并发下延迟显著降低
 4. auto分组
 5. 用户分组专属分组倍率
+6. 上游检测
+
+## 上游检测教程
+对于已添加的渠道，点击检测按钮并等待，会得到如下结果
+![image](https://github.com/user-attachments/assets/69e40a89-c989-40b3-9361-c8f02bea9426)
+![image](https://github.com/user-attachments/assets/8f855b8c-48be-466c-a2e4-f2a004d0fb3e)
+
 
 ## auto分组使用教程
 将依次从自动分组的第一位开始选择分组，如果该分组请求失败，则顺位到下一个分组请求，适用于需要一个令牌访问所有模型的用户  
