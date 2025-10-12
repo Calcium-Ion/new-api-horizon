@@ -30,13 +30,5 @@ Docker镜像：calciumion/new-api-horizon:latest
 
 除了原版New API的所有功能外,New API Horizon新增以下特性
 
-1. **[OpenAI Realtime API](https://platform.openai.com/docs/guides/realtime/integration)** - 支持OpenAI的Realtime API，支持Azure渠道。
-2. 支持`/v1/messages`接口（兼容OpenAI渠道转换为Claude格式）
-3. 高性能，对部分场景专门优化，提高系统资源利用率，高并发下延迟显著降低
-4. 上游检测
-
-## 上游检测教程
-对于已添加的渠道，点击检测按钮并等待，会得到如下结果
-![image](https://github.com/user-attachments/assets/69e40a89-c989-40b3-9361-c8f02bea9426)
-![image](https://github.com/user-attachments/assets/8f855b8c-48be-466c-a2e4-f2a004d0fb3e)
+1. 优化部分场景导致CPU 100%占用的问题（注意，此功能并非修复了newapi的bug，没有在开源版本的代码里故意留bug留到horizon修复，请勿造谣）
 
