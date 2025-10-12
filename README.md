@@ -30,5 +30,5 @@ Docker镜像：calciumion/new-api-horizon:latest
 
 除了原版New API的所有功能外,New API Horizon新增以下特性
 
-1. 优化部分场景导致CPU 100%占用的问题（注意，此功能并非修复了newapi的bug，没有在开源版本的代码里故意留bug留到horizon修复，请勿造谣）
+1. 优化部分场景导致CPU 100%占用的问题（注意，此功能并非修复了newapi的bug，而是通过技术手段提升性能，没有在开源版本的代码里故意留bug留到horizon修复，请勿造谣）
 
