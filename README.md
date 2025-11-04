@@ -31,5 +31,6 @@ Docker镜像：calciumion/new-api-horizon:latest
 除了原版New API的所有功能外,New API Horizon新增以下特性
 
 1. 优化部分场景导致CPU 100%占用的问题（注意，此功能并非修复了newapi的bug，而是通过技术手段提升性能，没有在开源版本的代码里故意留bug留到horizon修复，请勿造谣）
-2. 新增系统设置-性能设置，Docker部署下启用流模式性能优化可减少约5%的CPU占用
+2. 减少高并发，高重试下CPU与内存消耗
+3. 新增系统设置-性能设置，Docker部署下启用流模式性能优化可减少约5%的CPU占用
 
